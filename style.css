@@ -916,42 +916,31 @@ div.attribution {
     color: var(--second-bg-color);
 }
 
+.service h2{
+    margin-bottom: 5rem;
+}
 
-.certificates-container {
+.service-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-}
+    gap: 2rem;
 
-.certificate {
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
 }
-
-.certificate:hover {
-    transform: scale(1.05);
-}
-
-.certificate img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #3498db;
-}
-
-.certificate p {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.9);
-    margin: 0;
-    padding: 10px;
+.service-container .service-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
     text-align: center;
-    font-size: 14px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border: .2rem solid var(--bg-color);
+}
+
+.service-box i{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+.service-box h3{
+    font-size: 2.6rem;
 }
